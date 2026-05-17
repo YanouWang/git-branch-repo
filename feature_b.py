@@ -1,7 +1,11 @@
-# 功能模块B - B3版本
+# 功能模块B - B3增强版
 def feature_b():
-    return "Feature B from B3 Branch"
+    """B3分支功能B V2"""
+    return "Feature B - B3 Enhanced"
 
 def utility_b():
-    """B3独有工具函数"""
-    return "Utility from B3"
+    return "Utility B - B3 V2"
+
+def extra_helper():
+    """B3额外辅助"""
+    return "Extra from B3!"

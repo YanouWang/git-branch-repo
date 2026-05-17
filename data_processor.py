@@ -1,10 +1,16 @@
-# 数据处理模块 - B3版本
+# 数据处理模块 - B3增强版
 import csv
+import re
 
 def process_data(data):
-    """B3分支的数据处理"""
-    return str(data).strip()
+    """B3数据处理V2"""
+    data = str(data).strip()
+    return re.sub(r"\s+", " ", data)
 
 def export_csv(data):
-    """B3新增：导出CSV"""
+    """导出CSV"""
     return ",".join(map(str, data))
+
+def clean_text(text):
+    """B3新增：文本清洗"""
+    return text.lower().strip()
