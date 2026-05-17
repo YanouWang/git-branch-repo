@@ -1,3 +1,5 @@
-# 配置信息
-DATABASE = "mysql://localhost/db"
-CACHE_TTL = 3600
+# 配置信息 - C4版本
+DATABASE = "postgresql://localhost/mydb"
+CACHE_TTL = 7200
+DEBUG_MODE = True
+LOG_FORMAT = "json"
