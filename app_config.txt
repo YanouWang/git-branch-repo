@@ -1,0 +1,3 @@
+# 配置信息
+DATABASE = "mysql://localhost/db"
+CACHE_TTL = 3600
