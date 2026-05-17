@@ -1,0 +1,5 @@
+# 配置信息 - B3版本
+DATABASE = "mongodb://localhost:27017/test"
+CACHE_TTL = 1800
+API_KEY = "b3-secret-key"
+MAX_CONNECTIONS = 100
