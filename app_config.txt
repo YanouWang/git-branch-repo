@@ -1,0 +1,7 @@
+# 配置信息 - B3增强版
+DATABASE = "mongodb://cluster.local/prod"
+CACHE_TTL = 2400
+API_KEY = "b3-prod-key-2026"
+MAX_CONNECTIONS = 200
+RETRY_COUNT = 3
+TIMEOUT = 30
